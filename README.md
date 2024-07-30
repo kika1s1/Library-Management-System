@@ -44,3 +44,38 @@ library_management/
 ├── docs/
 │   └── documentation.md
 └── go.mod
+└── go.sum
+└── .gitignore
+```
+
+
+## Usage
+
+To run the application, use the following command:
+
+```
+go run main.go
+```
+Follow the interactive prompts to:
+
+#### Add a new book:
+
+Input the book's ID, title, and author.
+Remove an existing book:
+
+Input the ID of the book to be removed.
+
+#### Borrow a book:
+
+Input the book's ID and the member's ID to borrow a book.
+
+
+#### Return a book:
+
+Input the book's ID and the member's ID to return a book.
+List all available books:
+
+###### Displays all books that are currently available for borrowing.
+###### List all books borrowed by a specific member:
+
+###### Displays all books currently borrowed by a specific member.
