@@ -23,7 +23,7 @@ func StartLibraryConsole() {
 		fmt.Println("4. Return Book")
 		fmt.Println("5. List Available Books")
 		fmt.Println("6. List Borrowed Books")
-		fmt.Println("7. Exit")
+		fmt.Println("7. Done / Exist")
 		fmt.Print("Enter your choice: ")
 		scanner.Scan()
 		choice := scanner.Text()
@@ -67,7 +67,7 @@ func addBook(scanner *bufio.Scanner) {
 	book.Status = "Available"
 
 	library.AddBook(book)
-	fmt.Println("Book added successfully.")
+	fmt.Println("Congrats, Book added successfully.")
 }
 
 func removeBook(scanner *bufio.Scanner) {
